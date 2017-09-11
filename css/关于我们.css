@@ -1,0 +1,394 @@
+/*左边选项卡*/
+.content{
+	width:1200px;
+	margin:0 auto 40px;
+}
+.line{
+	width:100%;
+	border-top: 1px solid #ccc;
+}
+.tab{
+	width:178px;
+	height: 366px;
+	float:left;
+	cursor: pointer;
+	background: #EAEAEA;
+}
+.tab li{
+	width:178px;
+	height: 60px;
+	border-bottom: 1px solid #ccc;
+	font-size: 18px;
+	text-align: center;
+	line-height: 60px;
+	color:#2195FF;
+}
+.tab .on{
+	background: #2195FF;
+	color:#fff;
+}
+.clear{
+	clear:both;
+}
+/*蓝鸥简介*/
+.same{
+	width:930px;
+	margin-left: 22px;
+	padding:30px 35px 0 35px;
+	float:left;
+}
+.same h2{
+	margin:0 0 10px 30px;
+}
+.intro{
+	/*display: none;*/
+	background: url("../img/about_03_bg.jpg") no-repeat;
+	padding-bottom: 130px;
+}
+.intro p{
+	margin:20px 0;
+	text-indent: 2em;
+	line-height: 28px;
+}
+.h_line{
+	width:150px;
+	border-top: 2px solid #2195FF;
+}
+/*发展历程*/
+.times{
+	display: none; 
+	background: #EAEAEA;
+}
+.times ul{
+	border-left: 1px solid #2195FF;
+	padding:10px 0 0 0;
+	width:950px;
+	margin: 20px 0;
+}
+.times ul li{
+	padding:10px 0;
+	font-size: 16px;
+}
+.times ul li p span{
+	display: inline-block;
+	width: 800px;
+}
+/*.times ul li span:nth-child(1){
+	margin-top: 3px;
+}*/
+.times .none{
+	padding: 0;
+}
+.times .none b{
+	background: #fff;
+	border:2px solid #2195FF;
+	border-radius: 5px;
+	width:8px;
+	height: 8px;
+	margin-left: -6px;
+}
+.times b{
+	display: inline-block;
+	width:10px;
+	height: 10px;
+	border-radius: 5px;
+	background: #2195FF;
+	margin: 10px 0 0 -5px;
+	vertical-align: top;
+}
+.times li>span{
+	position: relative;
+	top: 7px;
+	margin-left: 20px;
+	font-size: 18px;
+	color: #2195FF;
+	vertical-align: top;
+}
+.times p{
+	display: inline-block;
+	color:#544B54;
+	margin: 0 0 0 20px;
+	line-height: 20px;
+	overflow: hidden;
+}
+.times p>span{
+	line-height: 26px;
+}
+.times p>span:hover{
+	color:#2195FF;
+	cursor:pointer;
+}
+/*CEO致辞*/
+.ceo{
+	position:relative;
+	background: url("../img/baout_01_bg.jpg") no-repeat;
+	display: none;
+}
+.ceo ul{
+	width:486px;
+	/*padding:20px 0;*/
+}
+.ceo ul li{
+	margin-bottom: 12px;
+	text-indent: 2em;
+	font-size: 14px;
+	line-height: 22px;
+}
+.ceo ul li:nth-last-child(1){
+	text-align: right;
+}
+.ceo img{
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+/*企业荣誉*/
+.honour{
+	display: none;
+	background: url('../img/ry_bg.jpg') bottom no-repeat;
+	padding-bottom: 100px;	
+}
+.honour ul{
+	overflow: hidden;
+	padding: 0 0 150px 0;
+}
+.honour ul li{
+	width:270px;
+	margin:10px 20px;
+	float:left;
+	font-size: 14px;
+	text-align: center;
+}
+/*企业文化*/
+.culture{
+	display: none;
+	background: url('../img/about_04_bg.jpg') no-repeat;
+	padding-bottom: 360px;	
+}
+.culture p{
+	text-indent: 2em;
+	font-size: 15px;
+	line-height: 28px;
+	margin-top: 20px;
+}
+/*校区地址*/
+.adress{
+	background: #E8E8E8;
+	display: none;
+}
+.adress>img{
+	margin-left: 150px;
+}
+.adress_ul{
+	overflow: hidden;
+}
+.adress_ul li{
+	width:400px;
+	height: 120px;
+	margin:20px 20px 0 45px;
+	float:left;
+}
+.adress_ul h3{
+	overflow: hidden;
+	line-height: 18px;
+}
+.adress_ul h3 strong{
+	display: inline-block;
+	border-left: 4px solid #2195FF;
+	height: 20px;
+	margin: 0 15px 0 0;
+	vertical-align: top;
+}
+.adress_ul p{
+	color:#878787;
+	margin:8px 0;
+}
+.adress_ul span{
+	color:#605753;
+}
+/*缴费*/
+.pay{
+	width:930px;
+	background:url('../img/bmlc_bg.jpg') no-repeat;
+	background-size:930px ;
+	overflow: hidden;
+	margin:20px 0 40px;
+}
+.pay li{
+	width:310px;
+	height: 122px;
+	padding-top: 122px;
+	float:left;
+}
+.pay li:nth-last-child(1){
+	padding-top: 100px;
+	height: 142px;
+}
+.pay span{
+	text-align: center;
+	font-size: 18px;
+	color:#2195FF;
+	display: block;
+	margin:0 auto;
+}
+.pay li:nth-child(1) span{
+	font-size: 26px;
+	color:#fff;
+	margin:20px auto 0;
+}
+.pay p{
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	margin:5px 15px;
+	color:#4E5E5B;
+}
+/*公告*/
+.notice{
+	/*width:930px;*/
+	background: url('../img/gg_bg.jpg') no-repeat;
+	background-size: 930px;
+	padding:80px 60px;
+}
+.notice h2{
+	font-size: 30px;
+	text-align: center;
+}
+.notice p{
+	margin-bottom: 15px;
+	line-height: 24px;
+}
+.notice p:nth-last-child(1){
+	color:red;
+}
+.notice p:nth-last-child(2){
+	color:#2195FF;
+}
+/*支付账户*/
+.alipay{
+	overflow: hidden;
+}
+.alipay li{
+	width:450px;
+	float:left;
+	margin-bottom: 30px;
+}
+.alipay li:nth-child(odd){
+	margin-right: 30px;
+}
+.alipay h3{
+	position:relative;
+	/*font-weight: 10;*/
+}
+.alipay strong{
+	display: inline-block;
+	height: 18px;
+	border-right:4px solid #2195FF;
+	position: absolute;
+	top:4px;
+}
+.alipay span{
+	margin-left: 30px;
+	display: inline-block;
+	width:200px;
+}
+.alipay table{
+	border-collapse: collapse;
+	border:1px solid #2195FF;
+	margin-top: 15px;
+}
+.alipay li tr td{
+	width:146px;
+	height: 50px;
+	background: #D6ECFD;
+	text-align: center;
+	font-size: 14px;
+}
+.alipay li tr:nth-child(1) th{
+	background: #7CC1FB;
+	width:146px;
+	height: 50px;
+	text-align: center;
+
+}
+/*报名*/
+#sign_up{
+	margin-bottom: 50px;
+	background: rgb(234,234,234);
+}
+#input{
+	background: #fff;
+	padding:50px 0 30px;
+	position:relative;
+}
+h1{
+	font-size: 30px;
+	margin: 20px auto 30px;
+	text-align: center;
+	color:#535353;
+}
+.every{
+	width:400px;
+	margin: 0 0 30px 50px;
+	float:left;
+	color:#343434;
+}
+.theattr{
+	float:left;
+	font-size: 18px;
+	margin: 15px 15px 0 0;
+}
+.every:nth-of-type(4) .theattr{
+	margin-right: 13px;
+}
+.theattr span:nth-child(1){
+	color:red;
+}
+.text,#text_t{
+	width:263px;
+	height: 53px;
+	border:1px solid #ccc;
+	padding-left:25px;
+	font-size: 18px;
+	border-radius: 6px;
+	background: #F0F1F6;
+}
+#san{
+	position:relative;
+	top:-35px;
+}
+.button{
+	width:290px;
+	height: 48px;
+	background: #2195FF;
+	border-radius: 6px;
+	font-size: 20px;
+	color:#fff;
+	letter-spacing: 8px;
+	text-align: center;
+	line-height: 48px;
+	margin:0 auto;
+	cursor:pointer;
+}
+#text_t{
+	width:293px;
+}
+#sign_up p{
+	text-align: center;
+	margin-top: 15px;
+	color:#535353;
+	font-weight:500;
+}
+#san{
+	position: relative;
+	left: 360px;
+}
+#text_t,#text_t option {
+  -webkit-appearance : none;  To gain control over the appearance on WebKit 
+  -moz-appearance : none;  To gain control over the appearance on Gecko 
+}
+
+
+
+
+

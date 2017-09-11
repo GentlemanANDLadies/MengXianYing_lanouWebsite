@@ -1,0 +1,336 @@
+#banner{
+	width: 100%;
+	height: 400px;
+}
+#banner img{
+	width: 100%;
+	height: 400px;
+}
+#money{
+	width: 1200px;
+	height: 247px;
+	margin: 30px auto;
+}
+#money li{
+	float: left;
+	width: 285px;
+	height: 217px;
+	margin-right: 20px;
+}
+#money li:nth-child(1){
+	background: rgb(88,196,185)
+}
+#money li:nth-child(2){
+	background: rgb(232,136,70)
+}
+#money li:nth-child(3){
+	background: rgb(79,138,237)
+}
+#money li:nth-child(4){
+	margin: 0px;
+	background: rgb(176,81,197)
+}
+#student_news{
+	width: 100%;
+	height: 622px;
+	background: rgb(234,234,234);
+}
+#top{
+	width: 1200px;
+	height: 23px;
+	margin: 0 auto;
+	padding-top: 40px;
+	position: relative;
+}
+#top img{
+	position: absolute;
+	top: 33px;
+}
+#top span{
+	position: absolute;
+	font-weight: bold;
+	font-size: 24px;
+	left: 40px;
+	bottom: 0px;
+	color: rgb(52,52,76)
+}
+#bottom_b{
+	width: 1200px;
+	height: 572px;
+	margin: 0 auto;
+	position: relative;
+}
+#left{
+	width: 762px;
+	height: 554px;
+	position: relative;
+}
+.pic{
+	width: 270px;
+	height: 456px;
+	position: absolute;
+	top: 36px;
+	left: 70px;
+	transition: all 1s;
+}
+#right{
+	width: 390px;
+	height: 518px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	padding-top: 36px;
+}
+#right h2{
+	font-size: 34px;
+	line-height: 44px;
+	color: rgb(38,38,38);
+}
+#right img{
+	margin-top: 15px;
+}
+#right p{
+	font-size: 19px;
+	font-weight: bold;
+	line-height: 40px;
+	margin-top: 20px;
+	color: rgb(38,38,38);
+}
+#find_job{
+	width: 1200px;
+	height: 834px;
+	margin: 0 auto;
+}
+#top_t{
+	width: 1200px;
+	height: 32px;
+	margin: 0 auto;
+	padding-top: 40px;
+	position: relative;
+}
+#top_t img{
+	position: absolute;
+	top: 38px;
+}
+#top_t span{
+	position: absolute;
+	font-weight: bold;
+	font-size: 24px;
+	left: 40px;
+	bottom: 5px;
+	color: rgb(52,52,76)
+}
+#nav{
+	width: 1200px;
+	height: 51px;
+	overflow: hidden;
+	margin-top: 10px;
+	border-bottom: 1px solid rgb(135,135,135);
+	position: relative;
+}
+#nav li{
+	width: 105px;
+	height: 47px;
+	float: left;
+	font-size: 18px;
+	color: #444444;
+	font-weight: bold;
+	line-height: 47px;
+	text-align: center;
+	margin-right: 20px;
+	cursor: pointer;
+}
+#nav li:nth-child(1){
+	color: red;
+}
+#border{
+	width: 105px;
+	height: 3px;
+	background: red;
+	position: absolute;
+	bottom: 0px;
+}
+#content{
+	padding-top: 30px;
+	width: 1200px;
+}
+#content ul{
+	background: rgb(32,140,239);
+	overflow: hidden;
+}
+#content ul li{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	text-align: center;
+}
+#content ul li:nth-child(1){
+	width: 155px;
+}
+#content ul li:nth-child(2){
+	width: 234px;
+}
+#content ul li:nth-child(3){
+	width: 145px;
+}
+#content ul li:nth-child(4){
+	width: 263px;
+}
+#content ul li:nth-child(5){
+	width: 118px;
+}
+#content ul li:nth-child(6){
+	width: 276px;
+}
+#con_n{
+	width: 1200px;
+	height: 570px;
+	position: relative;
+	overflow: hidden;
+}
+#con_n ol{
+	width: 1200px;
+	height: 540px;
+	/*background: red;*/
+}
+#con_n ol li{
+	width: 1200px;
+	height: 44px;
+	border-bottom: 1px solid black;
+}
+#con_n ol li p{
+	float: left;
+	height: 44px;
+	font-size: 14px;
+	line-height: 44px;
+	text-align: center;
+}
+.name{
+	width: 155px;
+}
+.academic_a{
+	width: 234px;
+}
+.professional{
+	width: 145px;
+}
+.company{
+	width: 263px;
+}
+.salary{
+	width: 118px;
+}
+.post{
+	width: 276px;
+}
+#sign_up{
+	width: 100%;
+	height: 514px;
+	background: rgb(234,234,234);
+}
+#ol_o{
+	position: absolute;
+	top: 0px;
+}
+#ol_l{
+	position: absolute;
+	top: 540px;
+}
+h1{
+	width: 1200px;
+	height: 111px;
+	font-size: 30px;
+	line-height: 111px;
+	margin: 0 auto;
+	text-align: center;
+}
+#input{
+	width: 1200px;
+	height: 311px;
+	padding-top: 52px;
+	margin: 0 auto;
+	background: white;
+	position: relative;
+}
+.every{
+	width: 505px;
+	height: 55px;
+	margin-left: 66px;
+	float: left;
+	position: relative;
+}
+.theattr{
+	width: 107px;
+	height: 53px;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 53px;
+	position: relative;
+	color: rgb(52,52,52);
+	display: inline-block;
+}
+.theattr span:nth-child(1){
+	color: red;
+	position: absolute;
+	top: 5px;
+}
+.theattr span:nth-child(2){
+	margin-left: 26px;
+}
+.text{
+	display: inline-block;
+	padding: 0px 0px 0px 25px;
+	width: 340px;
+	height: 53px;
+	border: 1px solid rgb(175,174,174);
+	border-radius: 5px;
+	margin-left: 28px;
+	position: absolute;
+	top: 0px;
+	font-size: 20px;
+	background: rgb(240,241,246)
+}
+.every:nth-child(3),.every:nth-child(4){
+	margin-top: 30px;
+}
+button{
+	width: 365px;
+	height: 54px;
+	background: rgb(48,126,213);
+	padding: 0px;
+	margin: 48px 0 0 417px;
+	border: 1px solid rgb(48,126,213);
+	border-radius: 5px;
+	color: white;
+	font-size: 22px;
+	letter-spacing:8px;
+}
+#input p{
+	margin-top: 15px;
+	font-size: 16px;
+	text-align: center;
+	color: rgb(83,83,83);
+	font-weight: bold;
+}
+#text_t{
+	padding: 0px 0px 0px 25px;
+	width: 365px;
+	height: 53px;
+	border: 1px solid rgb(175,174,174);
+	border-radius: 5px;
+	margin-left: 28px;
+	position: absolute;
+	top: 0px;
+	font-size: 20px;
+	background: rgb(240,241,246);
+	color: rgb(83,83,83);
+}
+#san{
+	position: relative;
+	left: 360px;
+}
+select, option {
+  -webkit-appearance : none;  To gain control over the appearance on WebKit 
+  -moz-appearance : none;  To gain control over the appearance on Gecko 
+}

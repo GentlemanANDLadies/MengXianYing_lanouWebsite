@@ -1,0 +1,297 @@
+.super{
+	width:100%;
+	height: 400px;
+	background: url('../img/super.jpg') center;
+	min-width: 1200px;
+}
+.search_tab{
+	width:1200px;
+	margin:50px auto 30px;
+}
+.form{
+	font-size: 24px;
+	color:#343434;
+	width:250px;
+	display: inline-block;
+}
+.form img{
+	width:33px;
+	vertical-align: bottom;
+}
+.schoolAll,.classes{
+	width:180px;
+	height: 40px;
+	background: #fff;
+	font-size: 16px;
+	border:1px solid #000;
+	margin-left: 50px;
+}
+.classes{
+	border:1px solid #549BFF;
+	color:#3E86FF;
+}
+#search{
+	width:120px;
+	height: 40px;
+	font-size: 18px;
+	color:#549BFF;
+	margin-left: 40px;
+	padding:0;
+	background: #fff;
+	border:1px solid #549BFF;
+	border-radius: 8px;
+}
+#search:hover{
+	background: #549BFF;
+	color:#fff;
+	cursor:pointer;
+}
+.bg{
+	background: #E5E5E5;
+	overflow: hidden;
+}
+/*body{
+	background: #E5E5E5;
+}*/
+/*表头*/
+.form_tab{
+	width:1200px;
+	margin:0 auto;
+	background: #2195FF;
+	height: 40px;
+}
+.form_tab span{
+	color:#fff;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+}
+.form_tab span:nth-child(1){
+	width:200px;
+}
+.form_tab span:nth-child(2){
+	width:250px;
+}
+.form_tab span:nth-child(3){
+	width:200px;
+}
+.form_tab span:nth-child(4){
+	width:275px;
+}
+.form_tab span:nth-child(5){
+	width:275px;
+}
+/*真内容*/
+.box{
+	overflow: hidden;
+	max-height: 600px;
+}
+.content{
+	width:1200px;
+	position:relative;
+	left:50%;
+	margin-left: -600px;
+}
+.content_li{
+	height: 50px;
+}
+.content_li span{
+	display: inline-block;
+	height: 50px;
+	color:#52558A;
+	text-align: center;
+	line-height: 50px;
+	border-bottom: 1px solid #ccc;
+	box-sizing:border-box;
+}
+/*选项卡*/
+.tabControl{
+	margin:20px auto 30px;
+	overflow: hidden;
+	width:520px;
+}
+.tabControl li{
+	float:left;
+	margin:0 10px;
+	cursor:pointer;
+	font-size: 20px;
+	color:#000;
+}
+.num{
+	width:20px;
+	text-align: center;
+	border-radius: 4px;
+	background: #fff;
+}
+.class{
+	width:200px; 
+}
+.school{
+	width:250px; 
+}
+.status{
+	width:200px; 
+}
+.status img{
+	margin-right: 10px;
+}
+.time1{
+	width:275px; 
+}
+.click{
+	width:275px; 
+}
+.click a{
+	display: inline-block;
+	width:100px;
+	height: 25px;
+	font-size:14px;
+	color:red;
+	border:1px solid red;
+	border-radius: 25px;
+	line-height: 25px;
+}
+.click a:hover{
+	background: red;
+	color:#fff;
+}
+/*javaEE背景*/
+.javaEE{
+	width:100%;
+	min-width:1200px;
+}
+.javaEE img{
+	width:100%;
+	vertical-align: top;
+}
+/*报名*/
+#sign_up{
+	width: 100%;
+	height: 514px;
+	background: rgb(234,234,234);
+}
+#ol_o{
+	position: absolute;
+	top: 0px;
+}
+#ol_l{
+	position: absolute;
+	top: 540px;
+}
+h1{
+	width: 1200px;
+	height: 111px;
+	font-size: 30px;
+	line-height: 111px;
+	margin: 0 auto;
+	text-align: center;
+	color:#FF690F;
+}
+#input{
+	width: 1200px;
+	height: 311px;
+	padding-top: 52px;
+	margin: 0 auto;
+	background: white;
+	position:relative;
+}
+.every{
+	width: 505px;
+	height: 55px;
+	margin-left: 66px;
+	float: left;
+	position: relative;
+}
+.theattr{
+	width: 107px;
+	height: 53px;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 53px;
+	position: relative;
+	color: rgb(52,52,52);
+	display: inline-block;
+}
+.theattr span:nth-child(1){
+	color: red;
+	position: absolute;
+	top: 5px;
+}
+.theattr span:nth-child(2){
+	margin-left: 26px;
+}
+.text{
+	display: inline-block;
+	padding: 0px 0px 0px 25px;
+	width: 340px;
+	height: 53px;
+	border: 1px solid rgb(175,174,174);
+	border-radius: 5px;
+	margin-left: 28px;
+	position: absolute;
+	top: 0px;
+	font-size: 20px;
+	background: rgb(240,241,246)
+}
+.every:nth-child(3),.every:nth-child(4){
+	margin-top: 30px;
+}
+.button{
+	width: 365px;
+	height: 54px;
+	background: rgb(48,126,213);
+	padding: 0px;
+	margin: 48px 0 0 417px;
+	border: 1px solid rgb(48,126,213);
+	border-radius: 5px;
+	color: white;
+	font-size: 22px;
+	letter-spacing:8px;
+}
+#input p{
+	margin-top: 15px;
+	font-size: 16px;
+	text-align: center;
+	color: rgb(83,83,83);
+	font-weight: bold;
+}
+#text_t{
+	padding: 0px 0px 0px 25px;
+	width: 367px;
+	height: 53px;
+	border: 1px solid rgb(175,174,174);
+	border-radius: 5px;
+	margin-left: 24px;
+	position: absolute;
+	top: 0px;
+	font-size: 20px;
+	background: rgb(240,241,246);
+	color: rgb(83,83,83);
+}
+#san{
+	position: relative;
+	left: 360px;
+}
+#text_t,#text_t option {
+  -webkit-appearance : none;  To gain control over the appearance on WebKit 
+  -moz-appearance : none;  To gain control over the appearance on Gecko 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
